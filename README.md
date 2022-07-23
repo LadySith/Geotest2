@@ -4,8 +4,8 @@ Customize Leaflet maps with a linked Google Sheets template or CSV files and Geo
 ![Preview](preview.jpg)
 
 ## Live links (replace with your own)
-- Leaflet Map https://handsondataviz.github.io/leaflet-maps-with-google-sheets/
-- Google Sheets template https://docs.google.com/spreadsheets/d/1ZxvU8eGyuN9M8GxTU9acKVJv70iC3px_m3EVFsOHN9g/edit#gid=0
+- Leaflet Map https://ladysith.github.io/Geotest2/
+- Google Sheets https://docs.google.com/spreadsheets/d/1UFPmAZj1f8bwmzPAP1S9fOQgq9ySh_GSz31V1qZIhfc/edit#gid=0
 
 ## Create your own
 See step-by-step tutorial in *Hands-On Data Visualization* https://handsondataviz.org/leaflet-maps-with-google-sheets.html
@@ -36,7 +36,7 @@ Option A: Use your existing code and pull your data from CSV files rather than a
 5. In your Github repo, open the `google-doc-url.js` file, scroll to the bottom of the page, and delete it.
 Now the code automatically searches for data in your CSV folder, rather than your Google Sheet. If desired, you can continue to use the Google Sheet to edit your map content and upload those changes to the CSV folder each time, or edit the CSV files directly.
 
-OR 
+OR
 
 Option B: If you understand (or are willing to learn about) [GitHub Desktop](https://handsondataviz.org/github-desktop-atom.html), use it to move copies of the newer code (index.html, scripts folder, style.css, etc.) into your repo via your local computer. In the `google-doc-url.js` file, copy and paste the Google Sheets API key that appears in the lower half of our code, but keep your own Google Sheets ID that appears in the upper-half of your code.
 
